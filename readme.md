@@ -6,7 +6,7 @@ Dazu benötigen wir [React Native](https://facebook.github.io/react-native/), [A
 
 <b>Bitte befolgt die Anweisungen genau und konfiguriert keine zusätzlichen Tools, die hier nicht aufgeführt sind!</b>
 <b>Wir werden gemeinsam React (Native) und ein erstes Projekt einrichten!</b>
-<b>Abweichungen oder weiterführende Arbeiten können Euch den Workshop versauen</b>
+<b>Abweichungen oder weiterführende Arbeiten können Euch den Workshop versauen!</b>
 
 Mein Plan für unseren kleinen Workshop ist folgender:
 * Einführung zu React (Native) und den zugehörigen Konzepten
@@ -76,7 +76,6 @@ Google will help you here :)
 
 ## Android Studio or XCode
 If you prefere Android Studio or XCode - install one or both just as you like!
-The iOS emulator is running much better than the Android emulator!
 *But you must install one of them*
 
 ### [Optional] Install Android Studio
