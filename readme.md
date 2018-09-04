@@ -22,6 +22,8 @@ Je nach Betriebssystem Eures Entwicklungsrechners geht es dann hier weiter:
 
 [Linux Preparation](#linux)
 
+---
+
 <a name="windows"></a>
 # Windows Preparation
 
@@ -45,6 +47,8 @@ Google will help you here :)
 ## VS Code
 * Siehe https://code.visualstudio.com/
 * Anschliessend testen ob sich VSCode starten lässt
+
+---
 
 <a name="macos"></a>
 # MacOS Preparation
@@ -78,7 +82,7 @@ The iOS emulator is running much better than the Android emulator!
 ### [Optional] Install Android Studio
 
 * Siehe https://developer.android.com/studio/install#mac
-* Nach dem Herunterladen, die Standart-installation durchführen.
+* Nach dem Herunterladen, die Default-Installation durchführen.
 * Android Studio starten und testen ob es startet.
 
 #### [Only for Android Studio] Setup Android adb
@@ -93,6 +97,8 @@ Google will help you here :)
 ## VS Code
 * Siehe https://code.visualstudio.com/
 * Anschliessend testen ob sich VSCode starten lässt
+
+---
 
 <a name="linux"></a>
 # Linux Preparation
