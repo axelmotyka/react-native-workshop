@@ -15,8 +15,11 @@ Mein Plan für unseren kleinen Workshop ist folgender:
 * Erstellen einer dynamischen Wetterabfrage auf Android und iOS mit der GPS-Funktion des mobilen Geräts.
 
 Je nach Betriebssystem Eures Entwicklungsrechners geht es dann hier weiter:
-[Windows Preparation](#windows)  
-[MacOS Preparation](#cacos)
+
+[Windows Preparation](#windows)
+
+[MacOS Preparation](#macos)
+
 [Linux Preparation](#linux)
 
 <a name="windows"></a>
