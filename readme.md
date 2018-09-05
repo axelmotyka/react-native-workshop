@@ -6,7 +6,6 @@ Dazu benötigen wir [React Native](https://facebook.github.io/react-native/), [A
 
 <b>Bitte befolgt die Anweisungen genau und konfiguriert keine zusätzlichen Tools, die hier nicht aufgeführt sind!</b>
 <b>Wir werden gemeinsam React (Native) und ein erstes Projekt einrichten!</b>
-<b>Abweichungen oder weiterführende Arbeiten können Euch den Workshop versauen!</b>
 
 Mein Plan für unseren kleinen Workshop ist folgender:
 * Einführung zu React (Native) und den zugehörigen Konzepten
@@ -74,24 +73,16 @@ Google will help you here :)
     6.4.1
     ```
 
-## Android Studio or XCode
-If you prefere Android Studio or XCode - install one or both just as you like!
-*But you must install one of them*
-
-### [Optional] Install Android Studio
+## Install Android Studio
 
 * Siehe https://developer.android.com/studio/install#mac
 * Nach dem Herunterladen, die Default-Installation durchführen.
 * Android Studio starten und testen ob es startet.
 
-#### [Only for Android Studio] Setup Android adb
+### Setup Android adb
 It is very handy to have the `adb` command working in your console!
 You must export the folder which contains `adb` to your path!
 Google will help you here :)
-
-### [Optional] Install XCode
-* Open the `App Store`
-* Find `XCode` and install it!
 
 ## VS Code
 * Siehe https://code.visualstudio.com/
