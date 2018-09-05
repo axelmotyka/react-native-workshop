@@ -38,9 +38,9 @@ Test NodeJS installation, open a console and enter `npm -v` it should respond a 
 * Nach dem Herunterladen, die Standart-installation durchführen.
 * Android Studio starten und testen ob es startet.
 
-### Setup Android adb
-It is very handy to have the `adb` command working in your console!
-You must add the folder which contains `adb.exe` to your path!
+### Setup Android adb and emulator
+It is very handy to have the `adb` and `emulator` command working in your console!
+You must export the folder which contains `adb` and `emulator` to your path!
 Google will help you here :)
 You can check if `adb` is running by entering the following command in your home directory:
 ```shell
@@ -51,6 +51,15 @@ should respond with
 Android Debug Bridge version 1.0.40
 Version 4986621
 Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
+```
+You can check if `emulator` is running by entering the following command in your home directory:
+```shell
+emulator -list-avds
+```
+there must be a device - <b>otherwise send me an email!</b>
+```shell
+Pixel_2_XL_API_19
+Pixel_2_XL_API_27
 ```
 
 ## VS Code
@@ -89,9 +98,9 @@ Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
 * Nach dem Herunterladen, die Default-Installation durchführen.
 * Android Studio starten und testen ob es startet.
 
-### Setup Android adb
-It is very handy to have the `adb` command working in your console!
-You must export the folder which contains `adb` to your path!
+### Setup Android adb and emulator
+It is very handy to have the `adb` and `emulator` command working in your console!
+You must export the folder which contains `adb` and `emulator` to your path!
 Google will help you here :)
 You can check if `adb` is running by entering the following command in your home directory:
 ```shell
@@ -102,6 +111,15 @@ should respond with
 Android Debug Bridge version 1.0.40
 Version 4986621
 Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
+```
+You can check if `emulator` is running by entering the following command in your home directory:
+```shell
+emulator -list-avds
+```
+there must be a device - <b>otherwise send me an email!</b>
+```shell
+Pixel_2_XL_API_19
+Pixel_2_XL_API_27
 ```
 
 ## VS Code
@@ -124,10 +142,11 @@ Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
 * Siehe https://developer.android.com/studio/install#linux
 * Nach dem Herunterladen, die Standart-installation durchführen.
 * Android Studio starten und testen ob es startet.
+* 
 
-### Setup Android adb
-It is very handy to have the `adb` command working in your console!
-You must export the folder which contains `adb` to your path!
+### Setup Android adb and emulator
+It is very handy to have the `adb` and `emulator` command working in your console!
+You must export the folder which contains `adb` and `emulator` to your path!
 Google will help you here :)
 You can check if `adb` is running by entering the following command in your home directory:
 ```shell
@@ -139,7 +158,15 @@ Android Debug Bridge version 1.0.40
 Version 4986621
 Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
 ```
-
+You can check if `emulator` is running by entering the following command in your home directory:
+```shell
+emulator -list-avds
+```
+there must be a device - <b>otherwise send me an email!</b>
+```shell
+Pixel_2_XL_API_19
+Pixel_2_XL_API_27
+```
 ## VS Code
 * Siehe https://code.visualstudio.com/, mehr infos finden sich auch unter https://code.visualstudio.com/docs/setup/linux
 * Anschliessend testen ob sich VSCode starten lässt
