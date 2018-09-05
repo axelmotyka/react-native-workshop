@@ -11,7 +11,7 @@ Mein Plan für unseren kleinen Workshop ist folgender:
 * Einführung zu React (Native) und den zugehörigen Konzepten
 * Aufsetzen von React (Native)
 * Erstellen eines interaktiven "Hello Workshop"-Projekts für Android/iOS
-* Erstellen einer dynamischen Wetterabfrage auf Android und iOS mit der GPS-Funktion des mobilen Geräts.
+* Erstellen einer dynamischen Wetterabfrage auf Android mit der GPS-Funktion des mobilen Geräts.
 
 Je nach Betriebssystem Eures Entwicklungsrechners geht es dann hier weiter:
 
@@ -42,6 +42,16 @@ Test NodeJS installation, open a console and enter `npm -v` it should respond a 
 It is very handy to have the `adb` command working in your console!
 You must add the folder which contains `adb.exe` to your path!
 Google will help you here :)
+You can check if `adb` is running by entering the following command in your home directory:
+```shell
+adb version
+```
+should respond with
+```shell
+Android Debug Bridge version 1.0.40
+Version 4986621
+Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
+```
 
 ## VS Code
 * Siehe https://code.visualstudio.com/
@@ -83,6 +93,16 @@ Google will help you here :)
 It is very handy to have the `adb` command working in your console!
 You must export the folder which contains `adb` to your path!
 Google will help you here :)
+You can check if `adb` is running by entering the following command in your home directory:
+```shell
+adb version
+```
+should respond with
+```shell
+Android Debug Bridge version 1.0.40
+Version 4986621
+Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
+```
 
 ## VS Code
 * Siehe https://code.visualstudio.com/
@@ -109,7 +129,16 @@ Google will help you here :)
 It is very handy to have the `adb` command working in your console!
 You must export the folder which contains `adb` to your path!
 Google will help you here :)
-
+You can check if `adb` is running by entering the following command in your home directory:
+```shell
+adb version
+```
+should respond with
+```shell
+Android Debug Bridge version 1.0.40
+Version 4986621
+Installed as /Users/axelmotyka/Library/Android/sdk/platform-tools/adb
+```
 
 ## VS Code
 * Siehe https://code.visualstudio.com/, mehr infos finden sich auch unter https://code.visualstudio.com/docs/setup/linux
