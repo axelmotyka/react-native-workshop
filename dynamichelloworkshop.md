@@ -1,3 +1,9 @@
+# Android SDK Mac
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/emulator
+
 # React Setup
 ```shell
 npm install -g create-react-native-app

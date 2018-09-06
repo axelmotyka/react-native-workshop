@@ -142,7 +142,6 @@ Pixel_2_XL_API_27
 * Siehe https://developer.android.com/studio/install#linux
 * Nach dem Herunterladen, die Standart-installation durchführen.
 * Android Studio starten und testen ob es startet.
-* 
 
 ### Setup Android adb and emulator
 It is very handy to have the `adb` and `emulator` command working in your console!
