@@ -6,7 +6,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 
 # React Setup
 ```shell
-npm install -g create-react-native-app
+npm install -g react-native-cli
 
 brew update && brew cask install react-native-debugger
 
