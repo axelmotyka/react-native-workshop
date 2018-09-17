@@ -37,14 +37,8 @@ render() {
           editable={true} multiline={false} 
           style={styles.messageTextInput}/>
 
-          /**
-           * Example for Sylvia - but there are more ways to do it! Depends on your needs!
-           */
           <MessageButton title="Set Message" onPress={ () => this.setMessagePressed()}/>
 
-          /**
-           * The original example!
-           */
           <View style={styles.button}>
             <Button 
                 ref={ref => (this.buttonSubmit = ref)}
