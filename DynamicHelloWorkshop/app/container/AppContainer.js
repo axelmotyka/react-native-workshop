@@ -7,10 +7,12 @@
  */
 
 import React, { Component } from 'react';
+import { Button, Keyboard, StyleSheet, Text, TextInput, View } from 'react-native';
+
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import {Button, Keyboard, Platform, StyleSheet, Text, TextInput, View} from 'react-native';
 import { ActionCreators } from '../actions';
+import MessageButton from '../components/MessageButton';
 
 class AppContainer extends Component {
 
@@ -24,7 +26,7 @@ class AppContainer extends Component {
     this.props.setMessage(this.state.textInputMessage);
   }
 
-  render() {
+render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Hello Workshop</Text>
@@ -32,16 +34,26 @@ class AppContainer extends Component {
         <TextInput 
           value={this.state.textInputMessage}
           onChangeText={textInputMessage => this.setState({textInputMessage})} 
-          onSubmitEditing={Keyboard.dismiss()}
           editable={true} multiline={false} 
           style={styles.messageTextInput}/>
-        <View style={styles.button}>
-          <Button 
-            ref={ref => (this.buttonSubmit = ref)}
-            title="Set message" 
-            onPress={ () => this.setMessagePressed()}/>
-        </View>
-        <TextInput editable={false} multiline = {true} style={styles.messageTextOutput}>{this.props.message}</TextInput>
+
+          /**
+           * Example for Sylvia - but there are more ways to do it! Depends on your needs!
+           */
+          <MessageButton title="Set Message" onPress={ () => this.setMessagePressed()}/>
+
+          /**
+           * The original example!
+           */
+          <View style={styles.button}>
+            <Button 
+                ref={ref => (this.buttonSubmit = ref)}
+                title="Set message" 
+                onPress={ () => this.setMessagePressed()}
+                />
+          </View>
+
+        <TextInput editable={false} multiline={true} style={styles.messageTextOutput}>{this.props.message}</TextInput>
       </View>
     );
   }
@@ -62,9 +74,6 @@ const styles = StyleSheet.create({
   instructions: {
     textAlign: 'center',
     color: '#333333',
-    margin: 5,
-  },
-  button: {
     margin: 5,
   },
   messageTextInput: {
